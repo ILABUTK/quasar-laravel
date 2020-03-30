@@ -33,8 +33,11 @@ $ php artisan key:generate
 $ php artisan serve
 
 #then build for development mode
+## use yarn
+## npx eslint .
 
-$ quasar dev | -m <mode>
+$ quasar dev  -m mode
+$ quasar dev  -m pwa
 ```
 
 ## Production
@@ -48,6 +51,9 @@ $ php artisan serve
 
 > `Check out`quasar.conf.js``
 
+``` upgrade yarn
+> curl --compressed -o- -L https://yarnpkg.com/install.sh |bash
+```
 ## Laravel License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).

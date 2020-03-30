@@ -1,4 +1,4 @@
-const load = view => () => import(`features/ApiCommunication/ui/${view}.vue`)
+const load = view => () => import('features/ApiCommunication/ui/AxiosNodeTest.vue')
 
 const axiosNodeTest = {
   path: '',

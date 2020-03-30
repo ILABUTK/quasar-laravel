@@ -1,4 +1,5 @@
-const load = view => () => import(`features/QuasarThirdParty/ui/${view}.vue`)
+// const load = view => () => import(`features/QuasarThirdParty/ui/${view}.vue`)
+const load = view => () => import('features/QuasarThirdParty/ui/Index.vue')
 
 const index = {
   path: '',

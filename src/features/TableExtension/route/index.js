@@ -1,4 +1,5 @@
-const load = view => () => import(`features/TableExtension/ui/${view}.vue`)
+// const load = view => () => import(`features/TableExtension/ui/${view}.vue`)
+const load = view => () => import('features/TableExtension/ui/Index.vue')
 
 const index = {
   path: '',
