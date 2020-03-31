@@ -1,11 +1,11 @@
 {
-  "name": "HITSApp",
+  "name": "laravel-quasar",
   "version": "0.0.1",
-  "description": "A HITS Lab Framework App",
-  "productName": "HITS App",
-  "cordovaId": "com.ilab.hitsapp",
+  "description": "A Laravel-Quasar Framework App",
+  "productName": "laravel-quasar",
+  "cordovaId": "com.name.app",
   "capacitorId": "",
-  "author": "ilabutk <ilab.utk@gmail.com>",
+  "author": "author@email.com",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
